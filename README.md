@@ -8,7 +8,7 @@ A molecular dynamics approach to study the permeation of nanoparticles through l
 
 ## WHAT ARE NANOPARTICLES?
 
-## WHAT IS A NEGATIVE-GAUSSIAN SURFACES?
+## WHAT ARE NEGATIVE-GAUSSIAN SURFACES?
 
 ## WHY IS CATENOID SPECIAL?
 
