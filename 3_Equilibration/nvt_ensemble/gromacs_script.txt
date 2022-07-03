@@ -1,0 +1,11 @@
+#Step 1 nvt	:	150 ps
+gmx grompp -f step_a_nvt.mdp -c minimization.gro -r minimization.gro -n index.ndx -p topol.top -o step_a_nvt.tpr
+gmx mdrun -v -deffnm step_a_nvt
+gmx energy -f step_a_nvt.edr -o temperature_a.xvg
+xmgrace temperature_a.xvg
+
+#Step 2 nvt	:	150 ps
+gmx grompp -f step_b_nvt.mdp -c step_a_nvt.gro -r step_a_nvt.gro -n index.ndx -p topol.top -o step_b_nvt.tpr
+gmx mdrun -v -deffnm step_b_nvt
+gmx energy -f step_b_nvt.edr -o temperature_b.xvg
+xmgrace temperature_b.xvg
