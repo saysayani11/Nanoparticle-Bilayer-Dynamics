@@ -22,9 +22,10 @@ for the study of endocytosis.
 ## WHAT ARE NEGATIVE-GAUSSIAN SURFACES?
 
 Some links that might be useful as references are:
-1. Gaussian curvatures    :     https://en.wikipedia.org/wiki/Gaussian_curvature
-2. Minimal Surfaces       :     https://en.wikipedia.org/wiki/Minimal_surface
-3. Catenoid               :     https://en.wikipedia.org/wiki/Catenoid
+1. Gaussian curvatures                            :     https://en.wikipedia.org/wiki/Gaussian_curvature
+2. Minimal Surfaces                               :     https://en.wikipedia.org/wiki/Minimal_surface
+3. Catenoid                                       :     https://en.wikipedia.org/wiki/Catenoid
+4. Geometry, surfaces, curves and polyhedra       :     http://paulbourke.net/geometry/
 
 ## WHY IS CATENOID SPECIAL?
 
