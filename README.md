@@ -26,6 +26,8 @@ A molecular dynamics approach to study the permeation of nanoparticles through l
 
 ## DATA AVAILABILITY:
 
+## CODE AVAILABILITY:
+
 ## QUERIES:
 
 Please drop an email at saySayani11@gmail.com
