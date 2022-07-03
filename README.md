@@ -4,6 +4,15 @@
 
 A molecular dynamics approach to study the permeation of nanoparticles through lipid bilayer
 
+## WHAT IS A BILAYER? 
+
+## WHAT ARE NANOPARTICLES?
+
+## WHAT IS A NEGATIVE-GAUSSIAN SURFACES?
+
+## WHY IS CATENOID SPECIAL?
+
+
 ## REQUIREMENTS:
 
 1. Installing GROMACS, a Molecular Dynamics Package. For downlaoding go over to: https://www.gromacs.org/
