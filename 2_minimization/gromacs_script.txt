@@ -1,0 +1,4 @@
+gmx grompp -f minimization.mdp -c DPPC_input.gro -r DPPC_input.gro -p topol.top -n index.ndx -o minimization.tpr
+gmx mdrun -v -deffnm minimization
+gmx energy -f minimmization.edr -o potential.xvg
+xmgrace potential.xvg
