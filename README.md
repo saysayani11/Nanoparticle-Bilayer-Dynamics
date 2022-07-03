@@ -6,9 +6,25 @@ A molecular dynamics approach to study the permeation of nanoparticles through l
 
 ## WHAT IS A BILAYER? 
 
+The lipid bilayer has been firmly established as the universal basis for cell-membrane structure. 
+The most abundant membrane lipids are the phospholipids. These have a polar head group and two hydrophobic hydrocarbon tails. 
+The tails are usually fatty acids, and they can differ in length (they normally contain between 14 and 24 carbon atoms). 
+One tail usually has one or more cis-double bonds (i.e., it is unsaturated), while the other tail does not (i.e., it is saturated). 
+It is this shape and amphipathic nature of the lipid molecules that cause them to form bilayers spontaneously in aqueous environments. 
+
 ## WHAT ARE NANOPARTICLES?
 
+A nanoparticle or ultrafine particle is usually defined as a particle of matter that is between 1 and 100 nanometres (nm) in diameter. 
+Biological nanoparticles are naturally occurring nanoparticles of 1–100 nm. Gold nanoparticles are used in resonance scattering dark-field microscopy 
+for the detection of microbial cells and their metabolites, the bio-imaging of tumor cells, and for the detection of receptors on their surface, and 
+for the study of endocytosis.
+
 ## WHAT ARE NEGATIVE-GAUSSIAN SURFACES?
+
+Some links that might be useful as references are:
+1. Gaussian curvatures    :     https://en.wikipedia.org/wiki/Gaussian_curvature
+2. Minimal Surfaces       :     https://en.wikipedia.org/wiki/Minimal_surface
+3. Catenoid               :     https://en.wikipedia.org/wiki/Catenoid
 
 ## WHY IS CATENOID SPECIAL?
 
