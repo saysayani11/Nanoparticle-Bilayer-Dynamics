@@ -42,8 +42,12 @@ Some links that might be useful as references are:
 
 ## DATA AVAILABILITY:
 
+All data are included in the main repositiory. The full data can be made available upon request. Please drop an email at: say.Sayani11@gmail.com
+
 ## CODE AVAILABILITY:
+
+All scripts are included in the scripts forder of the main repository. 
 
 ## QUERIES:
 
-Please drop an email at saySayani11@gmail.com
+Please drop an email at say.Sayani11@gmail.com
