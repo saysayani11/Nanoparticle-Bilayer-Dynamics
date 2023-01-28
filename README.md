@@ -39,7 +39,17 @@ Probing minimal-surface gold nanoparticles adhesion and translocation through DP
 
 To do this, we model a DPPC bilayer starting with a single DPPC molecule (structure available in PubChem). The model is minimized to remove clashes and overlaps. The final DPPC bilayer we have has a lipid count of  164 per leaflet, a total layer thickness of 50A. To generate solid catenoid-shaped Gold Nanoparticles, a solid FCC lattice was used to cut out a catenoid of top diameter of 10A and length of 20A, using MATLAB. 
 
-## SIMULATION NETHODS
+## REQUIREMENTS:
+
+1. Installing LAMMPS, a Molecular Dynamics Package. For downlaoding go over to: https://www.gromacs.org/
+2. Lipid molecule of choice (Here we use DPPC)
+3. A lipid-bilayer system
+4. Software Atomsk to generate nanoparticles of given dimensions
+5. MATLAB to generate solid catenoid
+6. Visualization tools: Ovito/VMD
+
+
+## SIMULATION METHODS
 Force Field – CHARMM36
 (A) Equilibrium Molecular Dynamics ( involves the equilibration of DPPC bilayer in water)
 Equilibration – 10 ns | Temp – 323.15 K | Press – 1 atm | Production – 50 ns
@@ -71,22 +81,6 @@ This study suggests that Catenoid AuNPs cause less bond/bond angle deformation l
 [3] Burgess, Sean, et al. "Adhesion, intake, and release of nanoparticles by lipid bilayers." Journal of colloid and interface science 561 (2020): 58-70.
 
 
-
-
-
-
-
-
-## REQUIREMENTS:
-
-1. Installing LAMMPS, a Molecular Dynamics Package. For downlaoding go over to: https://www.gromacs.org/
-2. Lipid molecule of choice (Here we use DPPC)
-3. A lipid-bilayer system
-4. Software Atomsk to generate nanoparticles of given dimensions
-5. MATLAB to generate solid catenoid
-6. Visualization tools: Ovito/VMD
-
-## STEPS:
 
 ## DATA AVAILABILITY:
 
