@@ -27,12 +27,59 @@ Some links that might be useful as references are:
 3. Catenoid                                       :     https://en.wikipedia.org/wiki/Catenoid
 4. Geometry, surfaces, curves and polyhedra       :     http://paulbourke.net/geometry/
 
-## WHY IS CATENOID SPECIAL?
+## WHY CATENOIDS: AN INTRODUCTION
+Formation of membrane necks are ubiquitous in membrane biology, and a necessary step in membrane trafficking, transport and cellular uptake. These structures can be studied and understood as catenoids, which are minimal surfaces, characterized by negative gaussian curvatures. Endocytosis of nanoparticles have been observed to proceed with such neck formation. Endocytosis initiates with adhesion of the NP to the bilayer surface, followed by membrane wrapping and its subsequent internalization, finally leading to its release inside the cell. Nanoparticle (NP) entry in the cell differ based on their physiological features (size, shape, charge, orientation).
+
+## OBJECTIVE
+
+Probing minimal-surface gold nanoparticles adhesion and translocation through DPPC lipid bilayer by varying
+(A) Shape: catenoid, cylinder 
+(B) Charge Density: +0.035σ , 0 , −0.035σ
+(C) Orientation: parallel, perpendicular (to bilayer axis)
+
+To do this, we model a DPPC bilayer starting with a single DPPC molecule (structure available in PubChem). The model is minimized to remove clashes and overlaps. The final DPPC bilayer we have has a lipid count of  164 per leaflet, a total layer thickness of 50A. To generate solid catenoid-shaped Gold Nanoparticles, a solid FCC lattice was used to cut out a catenoid of top diameter of 10A and length of 20A, using MATLAB. 
+
+## SIMULATION NETHODS
+Force Field – CHARMM36
+(A) Equilibrium Molecular Dynamics ( involves the equilibration of DPPC bilayer in water)
+Equilibration – 10 ns | Temp – 323.15 K | Press – 1 atm | Production – 50 ns
+
+(B) Non Equilibrium Molecular Dynamics (Initial introduction of NP at a distance of 5-6 A from lipid bilayer)
+Solvation – 10 ns | Temp – 323.15 K | Press – 1 atm | Constant Force – 15 pN
+NVT Production – 1.5 ns
+
+The simulations were set up using LAMMPS molecular dynamics package.
+
+## STUDY AND ANALYSIS
+(A) Equilibrium properties:
+(i) Area per lipid: The area per lipid achieved after modeling the bilayer was 62 A2  which is nearly in accordance with the experimental area per lipid of 65.7 A2 in DPPC bilayer.
+(ii) Density Profile: Appears symmetric across both leaflets.
+
+(B) Adhesion: AuNPs were placed at distance of 5A from the bilayer to study comparative properties
+(i) Potential Energy: A Potential Energy plot shows a lower energy difference in Catenoid AuNPs compared to Cylinder AuNPs during the adhesion process.
+(ii) Laterla Pressure Profile: Cylinder AuNP (across all charge and orientation variations) exhibits higher repulsion in region (III) [Chain repulsion (P>0)] than that of Catenoid AuNP (across all charge and orientation variations).
+
+(C) Translocation: A constant force of 15pN was applied in the Z direction for AuNPs translocation.
+(i) Bond Energy: A Bond Energy plot for Catenoid and Cylinder AuNPs show a lower energy difference in all Catenoid AuNPs. 
+(ii) Bond Angle Energy: A Bond Angle Energy plot for Catenoid and Cylinder AuNPs show a markedly lower energy difference in all catenoid AuNPs.
+
+This study suggests that Catenoid AuNPs cause less bond/bond angle deformation leading to lower change in bond and bond angle energy values. Thus, interaction of minimal surface structures with spontaneously formed membrane curvatures during translocation process may lead to a more energetically favorable cellular uptake.
+
+## REFERENCES
+[1] Chabanon, Morgan, and Padmini Rangamani. "Gaussian curvature directs the distribution of spontaneous curvatureon bilayer membrane necks." Soft matter 14.12 (2018): 2281-2294.
+[2] Vanommeslaeghe, Kenno, et al. "CHARMM general force field: A force field for drug‐like molecules compatible with the CHARMM all‐atom additive biological force fields." Journal of computational chemistry 31.4 (2010):671-690.
+[3] Burgess, Sean, et al. "Adhesion, intake, and release of nanoparticles by lipid bilayers." Journal of colloid and interface science 561 (2020): 58-70.
+
+
+
+
+
+
 
 
 ## REQUIREMENTS:
 
-1. Installing GROMACS, a Molecular Dynamics Package. For downlaoding go over to: https://www.gromacs.org/
+1. Installing LAMMPS, a Molecular Dynamics Package. For downlaoding go over to: https://www.gromacs.org/
 2. Lipid molecule of choice (Here we use DPPC)
 3. A lipid-bilayer system
 4. Software Atomsk to generate nanoparticles of given dimensions
